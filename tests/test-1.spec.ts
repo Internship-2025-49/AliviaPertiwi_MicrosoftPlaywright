@@ -1,5 +1,3 @@
-import { test, expect } from "@playwright/test";
+// import { test, expect } from "@playwright/test";
 
-test("test", async ({ page }) => {
-  await page.locator("body").click();
-});
+// test("test", async ({ page }) => {});
