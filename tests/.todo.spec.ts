@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-test("active and completed filters", async ({ page }) => {
+test("active and completed the filters", async ({ page }) => {
   await page.goto("https://demo.playwright.dev/todomvc/#/");
   await page
     .getByPlaceholder("What needs to be done?")
