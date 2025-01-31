@@ -27,6 +27,8 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     trace: "on-first-retry",
+    baseURL: "https://demo.playwright.dev/todomvc/#/",
+
     // trace: "on",
     // screenshot: "on",
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
