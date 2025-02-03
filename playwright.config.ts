@@ -66,6 +66,15 @@ export default defineConfig({
         storageState: STORAGE_STATE,
       },
     },
+    {
+      name: "cleanup db",
+      testMatch: /global\.teardown\.ts/,
+    },
+    {
+      name: "chromium",
+      use: { ...devices["Desktop Chrome"] },
+      dependencies: ["setup"],
+    },
 
     /* Test against mobile viewports. */
     // {
