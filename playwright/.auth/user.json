@@ -1,0 +1,251 @@
+{
+  "cookies": [
+    {
+      "name": "WMF-Last-Access",
+      "value": "03-Feb-2025",
+      "domain": "en.wikipedia.org",
+      "path": "/",
+      "expires": 1741306693.333916,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WMF-Last-Access-Global",
+      "value": "03-Feb-2025",
+      "domain": ".wikipedia.org",
+      "path": "/",
+      "expires": 1741306693.334258,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "GeoIP",
+      "value": "ID:JB:Bandung:-6.92:107.61:v4",
+      "domain": ".wikipedia.org",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NetworkProbeLimit",
+      "value": "0.001",
+      "domain": "en.wikipedia.org",
+      "path": "/",
+      "expires": 1738555990.334349,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "enwikimwuser-sessionId",
+      "value": "e081d4ef93bab1c6ea9d",
+      "domain": "en.wikipedia.org",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CentralAuthAnonTopLevel",
+      "value": "1",
+      "domain": "en.wikipedia.org",
+      "path": "/",
+      "expires": 1738638791.430949,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "WMF-Last-Access",
+      "value": "03-Feb-2025",
+      "domain": "login.wikimedia.org",
+      "path": "/",
+      "expires": 1741305732.672627,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "GeoIP",
+      "value": "ID:JB:Bandung:-6.92:107.61:v4",
+      "domain": ".wikimedia.org",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NetworkProbeLimit",
+      "value": "0.001",
+      "domain": "login.wikimedia.org",
+      "path": "/",
+      "expires": 1738555991.672801,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "enwikiSession",
+      "value": "v9tfl25bqpcf8b0sgrvd6hameog5dkf4",
+      "domain": "en.wikipedia.org",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "enwikiUserID",
+      "value": "49157321",
+      "domain": "en.wikipedia.org",
+      "path": "/",
+      "expires": 1741144394.673499,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "enwikiUserName",
+      "value": "Lipia2302",
+      "domain": "en.wikipedia.org",
+      "path": "/",
+      "expires": 1741144394.673546,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "centralauth_User",
+      "value": "Lipia2302",
+      "domain": ".wikipedia.org",
+      "path": "/",
+      "expires": 1741144394.673583,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "loginnotify_prevlogins",
+      "value": "2025-9yvg4m-fk10d4ycbza2k1mzyq0r82lu2ys430u",
+      "domain": "en.wikipedia.org",
+      "path": "/",
+      "expires": 1754104393.41613,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cpPosIndex",
+      "value": "7%401738552261%23c83df9bd7953ad8990e648c001b7deae",
+      "domain": "en.wikipedia.org",
+      "path": "/",
+      "expires": 1738552403.416157,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UseDC",
+      "value": "master",
+      "domain": "en.wikipedia.org",
+      "path": "/",
+      "expires": 1738552403.416172,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "loginwikiSession",
+      "value": "udsl7q7t3n7untir2mf7jqo1tu3s1qlo",
+      "domain": "login.wikimedia.org",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "loginwikiUserID",
+      "value": "89553499",
+      "domain": "login.wikimedia.org",
+      "path": "/",
+      "expires": 1741144393.66763,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "loginwikiUserName",
+      "value": "Lipia2302",
+      "domain": "login.wikimedia.org",
+      "path": "/",
+      "expires": 1741144393.667666,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "centralauth_User",
+      "value": "Lipia2302",
+      "domain": "login.wikimedia.org",
+      "path": "/",
+      "expires": 1741144393.667696,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "centralauth_Session",
+      "value": "e23c2306c38303149065ca985fde3e28",
+      "domain": "login.wikimedia.org",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "centralauth_Session",
+      "value": "e23c2306c38303149065ca985fde3e28",
+      "domain": ".wikipedia.org",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://en.wikipedia.org",
+      "localStorage": [
+        {
+          "name": "CentralNoticeKV|global|buckets",
+          "value": "{\"expiry\":1746069191,\"val\":\"Wiki Loves Folklore 2025!338368000!7689540!0\"}"
+        },
+        {
+          "name": "wmE-sessionTickLastTickTime",
+          "value": "1738552391080"
+        },
+        {
+          "name": "CentralAuthAnon",
+          "value": "1738638791022"
+        },
+        {
+          "name": "wmE-sessionTickTickCount",
+          "value": "1"
+        },
+        {
+          "name": "CentralNoticeKV|global|impression_diet_WLF2025anon_cookie",
+          "value": "{\"expiry\":1770088391,\"val\":{\"seenCount\":2,\"skippedThisCycle\":0,\"nextCycleStart\":1739157190982,\"seenThisCycle\":2}}"
+        }
+      ]
+    }
+  ]
+}

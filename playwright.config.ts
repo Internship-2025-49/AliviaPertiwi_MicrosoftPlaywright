@@ -1,4 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
+import path from "path";
+
+export const STORAGE_STATE = path.join(__dirname, "playwright/.auth/user.json");
 
 /**
  * Read environment variables from file.
@@ -27,7 +30,7 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     trace: "on-first-retry",
-    baseURL: "https://demo.playwright.dev/todomvc/#/",
+    baseURL: "https://en.wikipedia.org",
 
     // trace: "on",
     // screenshot: "on",
@@ -37,19 +40,31 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    {
-      name: "chromium",
-      use: { ...devices["Desktop Chrome"] },
-    },
+    // {
+    //   name: "chromium",
+    //   use: { ...devices["Desktop Chrome"] },
+    // },
+
+    // {
+    //   name: "firefox",
+    //   use: { ...devices["Desktop Firefox"] },
+    // },
+
+    // {
+    //   name: "webkit",
+    //   use: { ...devices["Desktop Safari"] },
+    // },
 
     {
-      name: "firefox",
-      use: { ...devices["Desktop Firefox"] },
+      name: "setup",
+      testMatch: "**/*.setup.ts",
     },
-
     {
-      name: "webkit",
-      use: { ...devices["Desktop Safari"] },
+      name: "e2e tests",
+      dependencies: ["setup"],
+      use: {
+        storageState: STORAGE_STATE,
+      },
     },
 
     /* Test against mobile viewports. */
